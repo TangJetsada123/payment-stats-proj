@@ -1,0 +1,18 @@
+version: "3.9"
+
+services:
+  api:
+    build: ./PaymentStats.Api
+    container_name: paymentstats-api
+    ports:
+      - "5171:8080"
+
+  web:
+    build: ./payment-stats-app
+    container_name: paymentstats-web
+    depends_on:
+      - api
+    ports:
+      - "5173:5173"
+    environment:
+      - VITE_API_URL=http://localhost:5171
