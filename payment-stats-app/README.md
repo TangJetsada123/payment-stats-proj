@@ -39,10 +39,10 @@ npm run dev
 
 ## Directory Structure
 ```
-components
+└── components
 ├── |—— StatsCard.tsx
 ├── |—— TransactionTable.tsx
-└──styles
+└── styles
 ├── |—— global.css
 ├── |—— layout.css
 └── type
