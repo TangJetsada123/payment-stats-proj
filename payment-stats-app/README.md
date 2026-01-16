@@ -39,20 +39,19 @@ npm run dev
 
 ## Directory Structure
 ```
-|—— components
-|    |—— StatsCard.tsx
-     |—— TransactionTable.tsx
-|     
-|—— styles
-|    |—— global.css
-     |—— layout.css
-|—— type
-|    |—— PaymentStats.ts
-     |—— PaymentTransaction.ts
-|—— App.tsx
-|—— index.css
-|—— main.tsx
-|—— dockerfile
+components
+├── |—— StatsCard.tsx
+├── |—— TransactionTable.tsx
+└──styles
+├── |—— global.css
+├── |—— layout.css
+└── type
+├── |—— PaymentStats.ts
+├── |—— PaymentTransaction.ts
+└── App.tsx
+└── index.css
+└── main.tsx
+└── dockerfile
 ```
 
 Note: This project follows a simple structure and is not meant to be a final architecture.
